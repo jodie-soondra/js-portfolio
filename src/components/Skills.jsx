@@ -1,8 +1,8 @@
 import React from 'react'
 import styles, {layout} from '../styles'
-import { DiMysql, DiReact, DiPython, DiUnitySmall, DiHtml5, DiGit } from 'react-icons/Di'
-import {SiTailwindcss, SiAdobeillustrator, SiAdobexd, SiAdobeindesign, SiCplusplus, SiJavascript, SiOpengl} from 'react-icons/Si'
-import {BsFiletypeHtml, BsFiletypeJava} from 'react-icons/Bs'
+import { DiMysql, DiReact, DiPython, DiUnitySmall, DiHtml5, DiGit } from 'react-icons/di'
+import {SiTailwindcss, SiAdobeillustrator, SiAdobexd, SiAdobeindesign, SiCplusplus, SiJavascript, SiOpengl} from 'react-icons/si'
+import {BsFiletypeJava} from 'react-icons/bs'
 
 const Skills = () => {
   return (

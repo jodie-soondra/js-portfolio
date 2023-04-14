@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import {AiOutlineInstagram, AiOutlineMail, AiFillLinkedin, AiOutlineGithub } from 'react-icons/Ai'
+import {AiOutlineInstagram, AiOutlineMail, AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai'
 
 const Contact = () => {
   return (
