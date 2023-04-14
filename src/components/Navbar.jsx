@@ -16,7 +16,9 @@ const Navbar = () => {
   return (
     <div className="bg-blue sm:px-16 px-6">
         <div className="flex py-6 navbar bg-blue justify-between items-center w-full">
+        <Link to="home" spy={true} smooth={true} offset={-90} duration={500}>
           <h1 className={`${styles.heading1} z-[10]`}>JS.</h1>
+        </Link>
           <ul className={`${styles.heading4} hidden sm:flex justify-end`}>
             <li className={`${styles.hoverOrange}`}><Link to="home" spy={true} smooth={true} offset={-90} duration={500}>Home</Link></li>
             <li className={`${styles.hoverOrange}`}><Link to="skills" spy={true} smooth={true} offset={-120} duration={500}>Skills</Link></li>
