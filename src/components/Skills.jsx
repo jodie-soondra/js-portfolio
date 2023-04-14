@@ -1,7 +1,7 @@
 import React from 'react'
 import styles, {layout} from '../styles'
 import { DiMysql, DiReact, DiPython, DiUnitySmall, DiHtml5, DiGit } from 'react-icons/di'
-import {SiTailwindcss, SiAdobeillustrator, SiAdobexd, SiAdobeindesign, SiCplusplus, SiJavascript, SiOpengl} from 'react-icons/si'
+import {SiTailwindcss, SiAdobeillustrator, SiAdobexd, SiAdobeindesign, SiCplusplus, SiJavascript, SiOpengl, SiFigma} from 'react-icons/si'
 import {BsFiletypeJava} from 'react-icons/bs'
 
 const Skills = () => {
@@ -39,6 +39,11 @@ const Skills = () => {
             <div className={`${styles.iconWrap}`}>
                 <SiAdobeindesign className={`${styles.iconSizing}`}/>
                 <p>Indesign</p>
+            </div>
+
+            <div className={`${styles.iconWrap}`}>
+                <SiFigma className={`${styles.iconSizing}`}/>
+                <p>Figma</p>
             </div>
 
             <div className={`${styles.iconWrap}`}>
