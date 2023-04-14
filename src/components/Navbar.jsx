@@ -16,16 +16,30 @@ const Navbar = () => {
   return (
     <div className="bg-blue sm:px-16 px-6">
         <div className="flex py-6 navbar bg-blue justify-between items-center w-full">
-        <Link to="home" spy={true} smooth={true} offset={-90} duration={500}>
-          <h1 className={`${styles.heading1} z-[10]`}>JS.</h1>
+        <Link onClick={nav ?  undefined : handleNav} className="z-[10]" to="home" spy={true} smooth={true} offset={-90} duration={500}>
+          <h1 className={`${styles.heading1} cursor-pointer`}>JS.</h1>
         </Link>
           <ul className={`${styles.heading4} hidden sm:flex justify-end`}>
-            <li className={`${styles.hoverOrange}`}><Link to="home" spy={true} smooth={true} offset={-90} duration={500}>Home</Link></li>
-            <li className={`${styles.hoverOrange}`}><Link to="skills" spy={true} smooth={true} offset={-120} duration={500}>Skills</Link></li>
-            <li className={`${styles.hoverOrange}`}><Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
-            <li className={`${styles.hoverOrange}`}><Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
+            <Link onClick={handleNav} to="home" spy={true} smooth={true} offset={-90} duration={500}>
+            <li className={`${styles.hoverOrange}`}>
+              Home
+            </li>
+          </Link>
+          <Link onClick={handleNav} to="skills" spy={true} smooth={true} offset={-120} duration={500}>
+            <li className={`${styles.hoverOrange}`}>
+              Skills
+            </li>
+          </Link>
+          <Link onClick={handleNav} to="projects" spy={true} smooth={true} offset={-100} duration={500}>
+            <li className={`${styles.hoverOrange}`}>
+              Projects
+            </li>
+          </Link>
+          <Link onClick={handleNav} to="contact" spy={true} smooth={true} offset={50} duration={500}>
+            <li className={`${styles.hoverOrange}`}>Contact</li>
+          </Link>
           </ul>
-          <div onClick={handleNav} className="block sm:hidden">
+          <div onClick={handleNav} className="block sm:hidden ">
             {nav ? <SlMenu size={24} color="white"/> : <SlClose size={24} color="white"/>}
           </div>
       </div>
