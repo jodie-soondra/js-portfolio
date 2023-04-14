@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth} fixed top-0 left-0 right-0 justify-center`}>
+        <div className={`w-full fixed top-0 left-0 right-0`}>
           <Navbar/>
         </div>
       </div>
