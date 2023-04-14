@@ -5,10 +5,19 @@ import {AiOutlineInstagram, AiOutlineMail, AiFillLinkedin, AiOutlineGithub } fro
 const Contact = () => {
   return (
     <div id="contact" className={`p-20 ${styles.flexCenter}`}>
-        <AiOutlineMail color="white" className={`${styles.contactIcons} p-3`} />
-        <AiFillLinkedin color="white" className={`${styles.contactIcons} p-3`}/>
-        <AiOutlineInstagram color="white" className={`${styles.contactIcons} p-3`}/>
-        <AiOutlineGithub color="white" className={`${styles.contactIcons} p-3`}/>
+        <a href="mailto:jodie.soondra@gmail.com?subject=Contact - Portfolio" target="_blank">
+          <AiOutlineMail color="white" className={`${styles.contactIcons} p-3`} />
+        </a>
+        <a href="https://www.linkedin.com/in/jodie-soondra-9a58b124b/" target="_blank">
+          <AiFillLinkedin color="white" className={`${styles.contactIcons} p-3`}/>
+        </a>
+        <a href="https://github.com/jodie-soondra" target="_blank">
+          <AiOutlineGithub color="white" className={`${styles.contactIcons} p-3`}/>
+        </a>
+        <a href="https://www.instagram.com/jodiesoondra/?hl=en" target="_blank">
+          <AiOutlineInstagram color="white" className={`${styles.contactIcons} p-3`}/>
+        </a>
+        
     </div>
   )
 }
