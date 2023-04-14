@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/js-portfolio/static/css/main.4e6ba41e.css",
-    "main.js": "/js-portfolio/static/js/main.d3b421ec.js",
+    "main.css": "/js-portfolio/static/css/main.be08ef28.css",
+    "main.js": "/js-portfolio/static/js/main.857db0d6.js",
+    "static/media/blockchain_sim.png": "/js-portfolio/static/media/blockchain_sim.d282868db3af13391fe4.png",
+    "static/media/flydreamair_landing.png": "/js-portfolio/static/media/flydreamair_landing.8e79dd048403be1ca17c.png",
+    "static/media/server_sim.png": "/js-portfolio/static/media/server_sim.f4ca006db901da8d28d8.png",
+    "static/media/lightPos_1.png": "/js-portfolio/static/media/lightPos_1.3f15737ec484dbbd682d.png",
     "index.html": "/js-portfolio/index.html",
-    "main.4e6ba41e.css.map": "/js-portfolio/static/css/main.4e6ba41e.css.map",
-    "main.d3b421ec.js.map": "/js-portfolio/static/js/main.d3b421ec.js.map"
+    "main.be08ef28.css.map": "/js-portfolio/static/css/main.be08ef28.css.map",
+    "main.857db0d6.js.map": "/js-portfolio/static/js/main.857db0d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e6ba41e.css",
-    "static/js/main.d3b421ec.js"
+    "static/css/main.be08ef28.css",
+    "static/js/main.857db0d6.js"
   ]
 }
